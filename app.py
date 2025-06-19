@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-df = pd.read_csv('C:/Users/HP/OneDrive/Desktop/mini/imdb.csv')
+df = pd.read_csv('imdb.csv')
 
 # Page configuration
 st.set_page_config(page_title="IMDB TOP MOVIES", layout='wide')
